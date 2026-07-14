@@ -29,9 +29,6 @@ const AdminProj = () => {
 
   const [form] = Form.useForm();
 
-  const handleImageUrlChange = (url) => {
-    setImageUrl(url);
-  };
 
   const selectProject = (project) => {
     setSelectedProject(project);

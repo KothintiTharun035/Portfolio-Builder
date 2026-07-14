@@ -4,19 +4,12 @@ import { useSelector } from "react-redux";
 import Lottie from "lottie-react";
 import { TypeAnimation } from "react-type-animation";
 
-import {
-  FaGithub,
-  FaLinkedin,
-  FaEnvelope,
-  FaDownload,
-  FaArrowRight,
-} from "react-icons/fa";
+
 
 import heroAnimation from "../../assets/Developer-at-work.json";
 
-import GradientButton from "../../components/ui/GradientButton";
+
 import GlassCard from "../../components/ui/GlassCard";
-import SocialIcons from "../../components/ui/SocialIcons";
 import FloatingBlobs from "../../components/ui/FloatingBlobs";
 
 
@@ -25,7 +18,6 @@ const Intro = () => {
   const { portfolioData } = useSelector((state) => state.root);
 
   const intros = portfolioData?.intros || {};
-  const contacts = portfolioData?.contacts || {};
 
   const {
     firstName = "",

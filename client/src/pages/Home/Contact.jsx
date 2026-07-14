@@ -11,7 +11,6 @@ import {
 import SectionTitle from "../../components/ui/SectionTitle";
 import GlassCard from "../../components/ui/GlassCard";
 import GradientButton from "../../components/ui/GradientButton";
-import SocialIcons from "../../components/ui/SocialIcons";
 
 import contactAnimation from "../../assets/contact-mail.json";
 
