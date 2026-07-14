@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 
