@@ -11,7 +11,6 @@ const Header = ({ displayAll }) => {
   const navigate = useNavigate();
 
   const { portfolioData } = useSelector((state) => state.root);
-  const User = useSelector((state) => state.currentUser);
 
   const contacts = portfolioData?.contacts || {};
 

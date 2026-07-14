@@ -130,7 +130,7 @@ const FooterLanding = () => {
     </a>
 
     <a
-      href=""
+      href="https://www.linkedin.com/"
       target="_blank"
       rel="noreferrer"
       className="text-blue-500 hover:scale-110 transition"

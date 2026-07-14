@@ -9,7 +9,6 @@ import {
 } from "../../redux/rootSlice";
 
 import API from "../../api/api";
-import ImageUpload from "../../components/ImageUpload";
 
 const AdminProj = () => {
   const dispatch = useDispatch();

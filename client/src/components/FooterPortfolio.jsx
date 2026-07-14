@@ -2,9 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 const FooterPortfolio = () => {
-  const { portfolioData } = useSelector((state) => state.root);
-
-  const contact = portfolioData?.contacts || {};
+ 
   const intro = portfolioData?.intros || {};
 
   const scrollToSection = (id) => {
