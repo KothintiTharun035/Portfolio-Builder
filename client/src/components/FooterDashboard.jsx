@@ -9,23 +9,7 @@ import {
 import contactAnimation from "../assets/contact-main-page.json";
 
 const FooterDashboard = () => {
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
 
-    if (element) {
-      element.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    }
-  };
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-  };
 
   return (
     <footer className="bg-[#0F172A] text-white pt-20 pb-8">
