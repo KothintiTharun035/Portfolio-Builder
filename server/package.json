@@ -6,12 +6,13 @@
   "author": "Kothinti Tharun",
   "type": "module",
   "main": "index.js",
-  "engines": {
-    "node": ">=21.6.2"
+  
   },
   "scripts": {
-    "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "node index.js",
+  "dev": "nodemon index.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+}
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
